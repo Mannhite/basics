@@ -12,4 +12,8 @@ url="https://www.netscribes.com/"
 driver.get(url)
 driver.implicitly_wait(3)
 driver.maximize_window()
+driver.find_element(By.XPATH,"//a[text()='Get started']").click(
+driver.get(url)
+driver.implicitly_wait(3)
+driver.maximize_window()
 driver.find_element(By.XPATH,"//a[text()='Get started']").click()
